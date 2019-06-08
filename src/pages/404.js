@@ -4,12 +4,14 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <article id="main">
+    <section id="wrapper">
       <header>
-        <h2>Not Found</h2>
-        <p>Not a Valid URL</p>
+        <div className="inner">
+          <h2>Page not found</h2>
+          <p>Not a valid URL</p>
+        </div>
       </header>
-    </article>
+    </section>
   </Layout>
 );
 
