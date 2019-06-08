@@ -33,4 +33,6 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],
+  phone: '000-00000',
+  address: '305 Del Sol, Sunnyvale, CA',
 };
